@@ -17,7 +17,7 @@ This project generates a **Copy-Move Forgery Dataset** using the **COCO dataset*
    - **Green (0, 255, 0)**: Original object region.
    - **Red (0, 0, 255)**: Forged/copied object region.
 ## 📂 Output Structure
-'''
+```
 CopyMove-COCO-Dataset/
 │── forged_images/       # Forged images
 │   ├── TP_123456_3B.jpg   # Forged image (TP: Tampered, Category 3, Brightness Adjusted)
@@ -29,7 +29,7 @@ CopyMove-COCO-Dataset/
 │── requirements.txt      # Dependencies
 │── README.md    # Documentation
 
-'''
+```
 File Naming Convention
 TP_123456_3B.jpg → TP_ (Tampered image) from COCO image 123456, Category 3, Brightness adjusted.
 Mask_123456_3B.jpg → Corresponding mask for the image above.
