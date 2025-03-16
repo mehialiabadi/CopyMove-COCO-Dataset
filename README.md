@@ -1,9 +1,6 @@
 # CopyMove-COCO-Dataset
 
 ## 📌 Overview
-# CopyMove-COCO-Dataset
-
-## 📌 Overview
 This project generates a **Copy-Move Forgery Dataset** using the **COCO dataset**. It detects objects in images, transforms and copies them to a new location within the same image, and creates corresponding ground truth masks.
 
 ## 🚀 How It Works
@@ -45,7 +42,6 @@ Mask_123456_3B.jpg → Corresponding mask for the image above.
 ## 🏗 Installation
 To run the dataset generation script, follow these steps:
 
-```bash
 git clone https://github.com/mehialiabadi/CopyMove-COCO-Dataset.git
 cd CopyMove-COCO-Dataset
 pip install -r requirements.txt
@@ -53,5 +49,5 @@ pip install -r requirements.txt
 ##📜 License
 This project is open-source under the MIT License.
 
-🙌 Acknowledgments
+##🙌 Acknowledgments
 COCO Dataset
