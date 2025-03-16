@@ -1,8 +1,5 @@
 # CopyMove-COCO-Dataset
 
-
-# CopyMove-COCO-Dataset
-
 ## 📌 Overview
 This project generates a **Copy-Move Forgery Dataset** using the **COCO dataset**. The dataset consists of images where objects are detected, transformed, pasted at different locations, and blended realistically to simulate copy-move forgery. Various augmentation techniques such as brightness and color intensity modifications are applied to ensure diversity.
 
