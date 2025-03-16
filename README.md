@@ -39,6 +39,33 @@ Mask_123456_3B.jpg → Corresponding mask for the image above.
   - **R**: Rotated
   - **S**: Scaled
 
+## 🖼 Sample Outputs
+
+Here are some examples of the generated **forged images** and their **corresponding ground truth masks**.
+
+### 🔹 **Example 1: Copy-Move Forgery**
+**Forged Image**
+![Forged Image](samples/forged_sample_1.jpg)
+
+**Ground Truth Mask**
+![Mask Image](samples/mask_sample_1.jpg)
+
+---
+
+### 🔹 **Example 2: Copy-Move Forgery**
+**Forged Image**
+![Forged Image](samples/forged_sample_2.jpg)
+
+**Ground Truth Mask**
+![Mask Image](samples/mask_sample_2.jpg)
+
+---
+
+### 📌 **Understanding the Mask Colors**
+- **Green (0, 255, 0)** → **Original Object** in the image.
+- **Red (0, 0, 255)** → **Forged/Copied Object** (moved object).
+
+This dataset is designed for training **Copy-Move Forgery Detection Models**.
 
 
 ## 🏗 Installation
