@@ -46,8 +46,8 @@ git clone https://github.com/mehialiabadi/CopyMove-COCO-Dataset.git
 cd CopyMove-COCO-Dataset
 pip install -r requirements.txt
 
-##📜 License
+## 📜 License
 This project is open-source under the MIT License.
 
-##🙌 Acknowledgments
+## 🙌 Acknowledgments
 COCO Dataset
