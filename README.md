@@ -20,17 +20,27 @@ This project generates a **Copy-Move Forgery Dataset** using the **COCO dataset*
    - **Green (0, 255, 0)**: Original object region.
    - **Red (0, 0, 255)**: Forged/copied object region.
 ## 📂 Output Structure
+CopyMove-COCO-Dataset/
+│── forged_images/       # Forged images
+│   ├── TP_123456_3B.jpg   # Forged image (TP: Tampered, Category 3, Brightness Adjusted)
+│   ├── TP_789012_5BL.jpg  # Forged image (Category 5, Blended)
+│── mask_images/         # Corresponding masks
+│   ├── Mask_123456_3B.jpg  # Mask (Green: Original, Red: Forged)
+│   ├── Mask_789012_5BL.jpg
+│── generate_dataset.py   # Main dataset generation script
+│── requirements.txt      # Dependencies
+│── README.md             # Documentation
 
+File Naming Convention
+TP_123456_3B.jpg → TP_ (Tampered image) from COCO image 123456, Category 3, Brightness adjusted.
+Mask_123456_3B.jpg → Corresponding mask for the image above.
 - **Suffixes in filenames**:
   - **B**: Brightness adjustment applied
   - **BL**: Blending applied
   - **R**: Rotated
   - **S**: Scaled
 
-## 🏗 Installation & Usage
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+
 
 ## 🏗 Installation
 To run the dataset generation script, follow these steps:
@@ -39,3 +49,9 @@ To run the dataset generation script, follow these steps:
 git clone https://github.com/mehialiabadi/CopyMove-COCO-Dataset.git
 cd CopyMove-COCO-Dataset
 pip install -r requirements.txt
+
+##📜 License
+This project is open-source under the MIT License.
+
+🙌 Acknowledgments
+COCO Dataset
